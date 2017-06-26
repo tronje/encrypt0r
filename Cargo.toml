@@ -1,0 +1,15 @@
+[package]
+name = "encrypt0r"
+version = "0.1.0"
+authors = ["Tronje Krabbe <hi@tron.je>"]
+
+[lib]
+name = "encrypt0r"
+path = "src/lib.rs"
+
+[[bin]]
+name = "encrypt0r"
+path = "src/main.rs"
+doc = false
+
+[dependencies]
